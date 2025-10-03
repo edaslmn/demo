@@ -21,7 +21,8 @@ public class DriverManager {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--remote-allow-origins=*");  // Çoğu yeni Chrome sürümünde gerekli
+                    chromeOptions.addArguments("--remote-allow-origins=*");
+                    chromeOptions.addArguments("--force-device-scale-factor=0.9"); // %90 zoom
                     driver.set(new ChromeDriver(chromeOptions));
                     break;
                 case "firefox":

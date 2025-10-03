@@ -2957,3 +2957,162 @@ Session ID: 8c1aa08add00dcbb516a0d5a4d59c952
 2025-10-02 22:04:59 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
 2025-10-02 22:07:10 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
 2025-10-02 22:07:11 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-02 23:24:47 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-02 23:25:00 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-02 23:26:01 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-02 23:26:01 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-02 23:45:12 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-02 23:45:13 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-02 23:45:17 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-02 23:47:35 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-02 23:47:37 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 00:11:12 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 00:11:13 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 00:11:33 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 00:12:40 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 00:12:42 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 00:32:26 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 00:32:27 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 00:32:52 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 00:33:57 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 00:34:00 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 01:12:43 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 01:12:44 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 01:12:57 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 01:14:06 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 01:14:10 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 01:17:58 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 01:17:59 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenden randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 01:18:02 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 01:20:13 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 01:20:14 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 01:29:50 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 01:29:53 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 01:30:01 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 01:30:01 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 02:27:38 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 02:27:53 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 02:28:41 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 02:28:42 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 02:31:04 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 02:31:05 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 02:31:08 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 02:31:42 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 02:31:42 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 02:48:26 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 02:48:27 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 02:48:30 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 02:49:11 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 02:49:12 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 15:03:39 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 15:03:40 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 15:04:11 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 15:05:19 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 15:05:20 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 15:08:11 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 15:08:12 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 15:08:16 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 15:09:23 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 15:09:24 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 15:22:43 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 15:22:44 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 15:22:48 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 15:23:48 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 15:23:49 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 15:25:28 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 15:25:29 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 15:25:33 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 15:26:32 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 15:26:33 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 15:27:09 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 15:27:10 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 15:27:14 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 15:28:13 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 15:28:14 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 16:31:20 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 16:31:21 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 16:31:33 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 16:33:26 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 16:33:27 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 16:40:56 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 16:40:57 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 16:41:03 [main] INFO  utilities.LoggerHelper - Driver başlatıldı, hazır ve zoom %90 olarak ayarlandı.
+2025-10-03 16:43:02 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 16:43:04 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 16:45:42 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 16:45:43 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 16:45:46 [main] INFO  utilities.LoggerHelper - Driver başlatıldı, hazır ve zoom %90 olarak ayarlandı.
+2025-10-03 16:47:50 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 16:47:51 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 18:38:12 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 18:38:13 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 18:38:34 [main] INFO  utilities.LoggerHelper - Driver başlatıldı, hazır ve zoom %90 olarak ayarlandı.
+2025-10-03 18:40:29 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 18:40:30 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 18:43:05 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 18:43:06 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 18:43:09 [main] INFO  utilities.LoggerHelper - Driver başlatıldı, hazır ve zoom %90 olarak ayarlandı.
+2025-10-03 18:45:14 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 18:45:14 [main] ERROR utilities.LoggerHelper - Screenshot alınamadı: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d334a1ef6ffc29b41ec61f3a5cf8b77, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\X\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50695/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d334a1ef6ffc29b41ec61f3a5cf8b77
+2025-10-03 18:45:15 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 18:48:55 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 18:48:56 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 18:48:59 [main] INFO  utilities.LoggerHelper - Driver başlatıldı, hazır ve zoom %80 (transform ile) ayarlandı.
+2025-10-03 18:49:22 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 18:49:22 [main] ERROR utilities.LoggerHelper - Screenshot alınamadı: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6c1571285b87e943543687b81d19f6c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\X\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50956/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6c1571285b87e943543687b81d19f6c
+2025-10-03 18:49:23 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 18:52:04 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 18:52:05 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 18:52:08 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 18:54:09 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 18:54:10 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 19:01:55 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 19:01:56 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 19:01:59 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 19:04:08 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 19:04:09 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 19:11:49 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 19:11:50 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 19:11:53 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 19:13:54 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 19:13:55 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 19:17:18 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 19:17:19 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 19:17:22 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 19:20:40 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 19:20:42 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 19:24:15 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 19:24:16 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 19:24:18 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 19:24:26 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 19:24:26 [main] ERROR utilities.LoggerHelper - Screenshot alınamadı: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.14.0', revision: 'e5a96349ce'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08e82aa68634f7fc7f8f76eb8e841de3, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\X\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08e82aa68634f7fc7f8f76eb8e841de3
+2025-10-03 19:24:27 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-03 19:25:48 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-03 19:25:48 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması ===
+2025-10-03 19:25:51 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-03 19:29:07 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+2025-10-03 19:29:08 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

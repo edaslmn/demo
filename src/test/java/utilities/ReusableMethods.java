@@ -86,4 +86,6 @@ public class ReusableMethods {
             DriverManager.getDriver().switchTo().window(ikinciWindowWhd);
 
         }
-}}
+}
+
+}

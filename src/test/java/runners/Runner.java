@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         },
 
         monochrome = false,                             // Konsol çıktısını okunabilir yapar
-        tags = "@demo"                                 // Sadece bu etikete sahip senaryoları çalıştırır
+        tags = "@hmm"                                 // Sadece bu etikete sahip senaryoları çalıştırır
 
         // publish = true // (Opsiyonel) Konsolda public rapor linki
 

@@ -1,10 +1,5 @@
-@demo
-Feature: Kayıtlı bir kullanıcı olarak ana sayfada eğitmenleri görüp bilgi alabilmek ve randevu oluşturabilmek istiyorum.
 
-  Background:
-    Given İlgili URL ile ana sayfaya ulaşır.
-    And Giriş Yap’a tıklar ve geçerli öğrenci e-posta ve şifresiyle giriş yapar.
-    And Kullanıcı sitenin Dashboard sayfasına erişir.
+Feature: Kayıtlı bir kullanıcı olarak ana sayfada eğitmenleri görüp bilgi alabilmek ve randevu oluşturabilmek istiyorum.
 
   Scenario: Ana sayfada Instructors linki görünür ve aktif olmalı
     Then Kullanıcı Instructors başlığını görmelidir.
@@ -32,56 +27,36 @@ Feature: Kayıtlı bir kullanıcı olarak ana sayfada eğitmenleri görüp bilgi
     And Kullanıcı Sawyer Emerson metnine tıklar.
     When Kullanıcı Courses düğmesine tıklar.
 
-  Scenario: Eğitmenden randevu talebinin başarılı şekilde oluşturulması
+  @demo
+  Scenario: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
+    Given İlgili URL ile ana sayfaya ulaşır.
+    And senkronizasyon icin 1 saniye bekler
+    And Giriş Yap’a tıklar ve geçerli öğrenci e-posta ve şifresiyle giriş yapar.
+    And Kullanıcı sitenin Dashboard sayfasına erişir.
     When Kullanıcı Instructors başlığına tıklar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Available for Meetings düğmesine tıklar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Discount düğmesine tıklar.
     And senkronizasyon icin 3 saniye bekler
-    And Kullanıcı Management düğmesine tıklar.
-    And senkronizasyon icin 3 saniye bekler
-    Then Sawyer Emerson metni görünür olmalıdır.
-    And senkronizasyon icin 3 saniye bekler
-    And Kullanıcı Reserve a Meeting düğmesine tıklar.
-    And senkronizasyon icin 3 saniye bekler
+    Then Instructor görünür olmalıdır.
+    And Kullanıcı egitimci linkine tıklar düğmesine tıklar.
+    And Kullanıcı Reserve a Meeting baslıgına goruntuler.
     And Kullanıcı takvimden ay seçer.
-    And senkronizasyon icin 3 saniye bekler
-    And Kullanıcı takvimden tarih seçer.
-    And senkronizasyon icin 3 saniye bekler
+    And Kullanıcı takvimden gun seçer.
     And Kullanıcı saat seçer.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Meeting Type başlığı altında turu seçer.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Reserve A Meeting düğmesine tıklar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Checkout düğmesine basar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı ödeme yöntemini seçer.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı Start Payment düğmesine basar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı gerekli bilgileri girer.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı ödeme yapar
-    And senkronizasyon icin 3 saniye bekler
     Then Randevu talebi başarıyla oluşturulmuş olmalıdır.
-    And senkronizasyon icin 3 saniye bekler
     Then My Panel metni görünür olmalıdır.
-    And senkronizasyon icin 3 saniye bekler
     When Kullanıcı My Panel düğmesine tıklar.
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı sitenin Dashboard sayfasına erişir.
-    And senkronizasyon icin 3 saniye bekler
     Then Kullanıcı Meetings linkine tıklar
-    And senkronizasyon icin 3 saniye bekler
     Then Kullanıcı My reservations linkine tıklar
-    And senkronizasyon icin 3 saniye bekler
     When Kullanıcı filtreleme yapar
-    And senkronizasyon icin 3 saniye bekler
     When Kullanıcı toplantıya status seçer
-    And senkronizasyon icin 3 saniye bekler
     Then Kullanıcı status onaylar
-    And senkronizasyon icin 3 saniye bekler
     And Kullanıcı çıkış yapar.
-    And senkronizasyon icin 3 saniye bekler

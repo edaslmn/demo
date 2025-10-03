@@ -10,8 +10,7 @@ public class DemoPage {
         PageFactory.initElements(utilities.DriverManager.getDriver(),this);
     }
 
-    @FindBy(xpath = "//*[@id=\"navbarContent\"]/ul/li[4]/a")
-    public WebElement instructors;
+
 
     @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div/div[2]/div[2]/a[1]")
     public WebElement loginLink;
@@ -25,9 +24,86 @@ public class DemoPage {
     @FindBy (xpath = "//*[@id=\"app\"]/div[3]/div/div[2]/div/form/button")
     public WebElement loginButton;
 
-    @FindBy (xpath = "//*[@id=\"panelSidebar\"]/div[1]/a/img")
+    @FindBy (xpath = "//*[@id=\"panel-sidebar-scroll\"]/div[1]/div[2]/div/div/div/li[4]/a/span[2]")
+    public WebElement meetingsLink;
+
+    @FindBy (xpath = "//*[@id=\"meetingCollapse\"]/ul/li[3]/a")
+    public WebElement settingsLink;
+
+     @FindBy (xpath = "//*[@id=\"mondayTimeSheet\"]/td[3]/div/button")
+    public WebElement timeSheet;
+
+    @FindBy (xpath = "//*[@id=\"mondayTimeSheet\"]/td[3]/div/div/button")
+    public WebElement addTimeButton;
+
+    @FindBy (xpath = "/html/body/div[4]/div[3]/div/div[2]/div[3]")
+    public WebElement startHour;
+
+    @FindBy (xpath = "/html/body/div[4]/div[3]/div/div[3]/div[4]")
+    public WebElement startMinute;
+
+    @FindBy (xpath = "/html/body/div[4]/div[3]/div/div[2]/div[6]")
+    public WebElement finishHour;
+
+    @FindBy (xpath = "/html/body/div[4]/div[3]/div/div[3]/div[5]")
+    public WebElement finishMinute;
+
+    @FindBy (xpath = "//*[@id=\"swal2-content\"]/div/div[2]/div/div/select")
+    public WebElement meetingTypeSelect;
+
+    @FindBy (xpath = "//*[@id=\"swal2-content\"]/div/div[3]/textarea")
+    public WebElement descriptionNote;
+
+    @FindBy (xpath = "//*[@id=\"saveTime\"]")
+    public WebElement saveTimeButton;
+
+    @FindBy (xpath = "//*[@id=\"panel_app\"]/div[2]/div[3]/form/div[1]/div/div[1]/div/input")
+    public WebElement amountTextBox;
+
+    @FindBy (xpath = "//*[@id=\"panel_app\"]/div[2]/div[3]/form/div[1]/div/div[2]/div/input")
+    public WebElement discountRateTextBox;
+
+    @FindBy (xpath = "//*[@id=\"meetingSettingFormSubmit\"]")
+    public WebElement meetingSettingSaveButton;
+
+    @FindBy (xpath = "//*[@id=\"panel-sidebar-scroll\"]/div[1]/div[2]/div/div/div/li[14]/a/span[2]")
+    public WebElement myProfileLink;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/section[2]/div/div[3]/div[4]/div/img")
+    public WebElement meetingsIcon;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div/div[2]/div[2]/div[1]/img")
     public WebElement profileIcon;
 
+    @FindBy (xpath = "//*[@id=\"app\"]/div[1]/div/div[2]/div[2]/div[2]/ul/li[7]/a/span")
+    public WebElement selectLogOut;
+
+    @FindBy (xpath = "//*[@id=\"filtersForm\"]/div[2]/div/div[14]/label")
+    public WebElement testerCheckBox;
+
+    @FindBy (xpath = "//*[@id=\"instructorsList\"]/div[2]/div/a/h3" )
+    public WebElement instructorPerson;
+
+    @FindBy (xpath = "//*[@id=\"PickTimeBody\"]/div[5]/textarea")
+    public WebElement reserveDescriptionTextBox;
+/*
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+ */
+
+
+    @FindBy(xpath = "//*[@id=\"navbarContent\"]/ul/li[4]/a")
+    public WebElement instructors;
 
     @FindBy (xpath = "//*[@id=\"app\"]/section/div/div/div/div/div/form/div/input")
     public WebElement searchBoxIns;
@@ -58,23 +134,20 @@ public class DemoPage {
     public WebElement sortByInstructorsStore;
 //-----------------------------------------------------------------------------------------------------------------------------
 
-    @FindBy (xpath = "//*[@id=\"bestRateInstructorsSwiper\"]/div/div[1]/div/a/h3" )
-    public WebElement sawyerEmerson;
-
     @FindBy (xpath = "//*[@id=\"bestRateInstructorsSwiper\"]/div/div[1]/div/div[2]/div")
     public WebElement instructorPoint;
 
     @FindBy (xpath = "//*[@id=\"webinars-tab\"]")
     public WebElement inctructorCourses;
 
-    @FindBy (xpath = "//*[@id=\"bestRateInstructorsSwiper\"]/div/div[1]/div/div[5]/a")
+    @FindBy (xpath = "//*[@id=\"appointments-tab\"]")
     public WebElement reserveMeeting;
 
     @FindBy (xpath = "//*[@id=\"plotId\"]/div[1]/div[3]")
     public WebElement month;
 
-    @FindBy (xpath = "//*[@id=\"plotId\"]/div[2]/div/div/table/tbody/tr[3]/td[4]/span")
-    public WebElement date;
+    @FindBy (xpath = "//*[@id=\"plotId\"]/div[2]/div/div/table/tbody/tr[4]/td[2]/span")
+    public WebElement day;
 
     @FindBy (xpath = "//*[@id=\"availableTimes\"]/div/label")
     public WebElement time;
@@ -124,8 +197,7 @@ public class DemoPage {
     @FindBy (xpath = "//*[@id=\"panel-sidebar-scroll\"]/div[1]/div[2]/div/div/div/li[15]/a/span[2]")
     public WebElement logOutLink;
 
-    @FindBy (xpath = "//*[@id=\"panel-sidebar-scroll\"]/div[1]/div[2]/div/div/div/li[4]/a/span[2]")
-    public WebElement meetingsLink;
+
 
     @FindBy (xpath = "//*[@id=\"meetingCollapse\"]/ul/li[1]/a")
     public WebElement myReservationsLink;
@@ -133,7 +205,7 @@ public class DemoPage {
     @FindBy (xpath = "//*[@id=\"panel_app\"]/div[2]/div[3]/section[3]/div[2]/div/div/div/table/tbody/tr[1]/td[9]/div/button")
     public WebElement strokesLinejoin;
 
-    @FindBy (xpath = "//*[@id=\"panel_app\"]/div[2]/div[3]/section[3]/div[2]/div/div/div/table/tbody/tr[2]/td[9]/div/div/button[2]")
+    @FindBy (xpath = "//*[@id=\"panel_app\"]/div[2]/div[3]/section[3]/div[2]/div/div/div/table/tbody/tr[1]/td[9]/div/div/button[2]")
     public WebElement finishMeeting;
 
     @FindBy (xpath = "//*[@id=\"day\"]")
