@@ -3116,3 +3116,77 @@ Session ID: 08e82aa68634f7fc7f8f76eb8e841de3
 2025-10-03 19:25:51 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
 2025-10-03 19:29:07 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmenin Toplantı oluşturup öğrencinin randevu talebinin başarılı şekilde oluşturulması
 2025-10-03 19:29:08 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 04:57:25 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 04:58:14 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 04:58:23 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 04:58:25 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:26:51 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:26:52 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:27:12 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:27:58 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:27:59 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:39:29 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:39:30 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:39:33 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:40:41 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:40:42 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:42:12 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:42:13 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:42:16 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:43:26 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:43:27 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:45:23 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:45:24 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:45:27 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:46:42 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:46:43 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:48:57 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:48:58 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:49:00 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:50:15 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:50:19 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:54:22 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:54:23 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:54:27 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:55:29 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:55:30 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 05:57:34 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 05:57:35 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 05:57:38 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 05:59:49 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 05:59:50 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:03:08 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:03:09 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:03:15 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:05:24 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:05:25 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:08:15 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:08:16 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:08:19 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:10:27 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:10:29 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:13:03 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:13:04 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:13:07 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:15:17 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:15:20 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:17:00 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:17:01 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:17:04 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:19:33 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:19:34 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:23:00 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:23:01 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:23:03 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:24:19 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:24:21 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:25:05 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:25:06 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:25:09 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:27:17 [main] ERROR utilities.LoggerHelper - !!! Test Başarısız: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:27:18 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.
+2025-10-04 06:31:24 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-10-04 06:31:25 [main] INFO  utilities.LoggerHelper - === Test Başlıyor: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli ===
+2025-10-04 06:31:28 [main] INFO  utilities.LoggerHelper - Driver başlatıldı ve hazır.
+2025-10-04 06:33:55 [main] INFO  utilities.LoggerHelper - +++ Test Başarıyla Tamamlandı: Eğitmen geçerli datalarla login olup, ödeme bölümünde geçerli datalarla ödeme yapıp kurs satın alabilmeli
+2025-10-04 06:33:55 [main] INFO  utilities.LoggerHelper - Driver kapatıldı.

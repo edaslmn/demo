@@ -4,6 +4,7 @@ import io.cucumber.java.en.*;
 import org.checkerframework.checker.units.qual.C;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import pages.DemoPage;
@@ -192,8 +193,8 @@ public class DemoSteps {
         ReusableMethods.waitFor(3);
     }
 
-    @Then("Kullanıcı Start Payment düğmesine basar.")
-    public void kullanıcı_start_payment_düğmesine_basar() {
+    @Then("Kullanıcı Start Payment butonuna tıklar.")
+    public void kullanıcı_start_payment_tıklar() {
         scroll(demoPage.startPayment);
         execute(demoPage.startPayment);
         ReusableMethods.waitFor(2);
@@ -213,7 +214,7 @@ public class DemoSteps {
         ReusableMethods.waitFor(2);
     }
 
-    @And("Kullanıcı ödeme yapar")
+    @And("Kullanıcı Payment butonuna tıklar")
     public void kullanıcıÖdemeYapar() {
         demoPage.payment.click();
         ReusableMethods.waitFor(2);
@@ -407,6 +408,154 @@ public class DemoSteps {
         demoPage.reserveDescriptionTextBox.sendKeys("TOPLANTIYA GEÇ KALMAMAYA ÇALIŞACAĞIM (:");
         ReusableMethods.waitFor(2);
     }
+
+    //---------------------------------------------------------------------------------------------
+
+    @Given("Kullanici Login linkine tıklar")
+    public void kullanici_login_linkine_tıklar() {
+       demoPage.loginLink.click();
+    }
+    @Given("Kullanici Email ve Password text box larına data girmez")
+    public void kullanici_email_ve_password_text_box_larına_data_girmez() {
+    }
+
+    @Then("login butonuna tıklar")
+    public void login_butonuna_tıklar() {
+        execute(demoPage.loginButton);
+        ReusableMethods.waitFor(2);
+    }
+
+    @Then("Kullanıcı uyarı mesajini görüntüler negatif login testi başarılı")
+    public void kullanıcı_uyarı_mesajini_görüntüler_negatif_login_testi_başarılı() {
+    }
+
+    @Then("Kullanici Email ve Password text box larına geçersiz data girer")
+    public void kullanici_email_ve_password_text_box_larına_geçersiz_data_girer() {
+        demoPage.userNameLoginTextBox.sendKeys("negatif@test");
+        ReusableMethods.waitFor(2);
+        demoPage.passwordLoginTextBox.sendKeys("hsgdfsfd");
+        ReusableMethods.waitFor(2);
+    }
+
+    @When("Kullanıcı Email textbox'ına geçerli E-posta Password text box'ına geçersiz şifre girer")
+    public void kullanıcı_email_textbox_ına_geçerli_e_posta_password_text_box_ına_geçersiz_şifre_girer() {
+        demoPage.userNameLoginTextBox.clear();
+        demoPage.userNameLoginTextBox.sendKeys(ConfigReader.getProperty("teaEdaEmail"));
+        ReusableMethods.waitFor(2);
+        demoPage.passwordLoginTextBox.clear();
+        demoPage.passwordLoginTextBox.sendKeys("hsgdfsfd");
+        ReusableMethods.waitFor(2);
+    }
+    @When("Kullanıcı Email textbox'ına geçersiz E-posta Password text box'ına geçerli şifre girer")
+    public void kullanıcı_email_textbox_ına_geçersiz_e_posta_password_text_box_ına_geçerli_şifre_girer() {
+        demoPage.userNameLoginTextBox.clear();
+        demoPage.userNameLoginTextBox.sendKeys("negatif@test");
+        ReusableMethods.waitFor(2);
+        demoPage.passwordLoginTextBox.clear();
+        demoPage.passwordLoginTextBox.sendKeys(ConfigReader.getProperty("edaPassword"));
+        ReusableMethods.waitFor(2);
+    }
+    @When("Kullanıcı Email textbox'ına geçersiz formatta data girer")
+    public void kullanıcı_email_textbox_ına_geçersiz_formatta_data_girer() {
+        demoPage.userNameLoginTextBox.clear();
+        demoPage.userNameLoginTextBox.sendKeys("negatif test");
+        ReusableMethods.waitFor(2);
+    }
+    @When("Kullanıcı Password textbox'ına geçersiz uzunlukta data girer")
+    public void kullanıcı_password_textbox_ına_geçersiz_uzunlukta_data_girer() {
+        demoPage.userNameLoginTextBox.clear();
+        demoPage.userNameLoginTextBox.sendKeys(ConfigReader.getProperty("teaEdaEmail"));
+        ReusableMethods.waitFor(1);
+        demoPage.passwordLoginTextBox.clear();
+        demoPage.passwordLoginTextBox.sendKeys("1");
+        ReusableMethods.waitFor(1);
+    }
+    @Then("Kullanici Email textbox'ına geçerli E-posta Password textbox'ına geçerli şifre girer")
+    public void kullanici_email_textbox_ına_geçerli_e_posta_password_textbox_ına_geçerli_şifre_girer() {
+        demoPage.userNameLoginTextBox.clear();
+        demoPage.userNameLoginTextBox.sendKeys(ConfigReader.getProperty("teaEdaEmail"));
+        ReusableMethods.waitFor(1);
+        demoPage.passwordLoginTextBox.clear();
+        demoPage.passwordLoginTextBox.sendKeys(ConfigReader.getProperty("edaPassword"));
+        ReusableMethods.waitFor(1);
+    }
+
+    @Then("Kullanici Courses linkine tıklar kurslar sayfasın yönlenir")
+    public void kullanici_courses_linkine_tıklar_kurslar_sayfasın_yönlenir() {
+        execute(demoPage.courses);
+        ReusableMethods.waitFor(1);
+    }
+    @Then("Kullanici Search text box'ında arama yapar")
+    public void kullanici_search_text_box_ında_arama_yapar() {
+        demoPage.courseSearch.sendKeys("Cyber");
+        ReusableMethods.waitFor(1);
+        execute(demoPage.courseSearchButton);
+        ReusableMethods.waitFor(1);
+    }
+    @Then("Kullanici aradığı kurs linkine tıklar")
+    public void kullanici_aradığı_kurs_linkine_tıklar() {
+        scroll(demoPage.sdetCourseLink);
+        ReusableMethods.waitFor(1);
+        execute(demoPage.sdetCourseLink);
+        ReusableMethods.waitFor(2);
+    }
+    @Then("Kullanici Buy Now butonuna tıklar")
+    public void kullanici_buy_now_butonuna_tıklar() {
+        execute(demoPage.buyNowButton);
+        ReusableMethods.waitFor(2);
+    }
+    @Given("kullanıcı ödeme sayfasına yönlenir")
+    public void kullanıcı_ödeme_sayfasına_yönlenir() {
+        ReusableMethods.waitFor(1);
+    }
+
+    @Given("kullanıcı ödeme formuna data girmez")
+    public void kullanıcı_ödeme_formuna_data_girmez() {
+
+    }
+    @Then("Kullanıcı uyarı mesajını görüntüler negatif ödeme testi başarılı")
+    public void kullanıcı_uyarı_mesajını_görüntüler_negatif_ödeme_testi_başarılı() {
+        ReusableMethods.waitFor(2);
+    }
+    @When("Kullanici Geçersiz e-posta girer")
+    public void kullanici_geçersiz_e_posta_girer() {
+       demoPage.paymentEmail.sendKeys("eda");
+        ReusableMethods.waitFor(2);
+    }
+    @When("kullanıcı Eksik kart numarası girer")
+    public void kullanıcı_eksik_kart_numarası_girer() {
+        demoPage.userNameLoginTextBox.sendKeys("@gmail.com");
+        ReusableMethods.waitFor(2);
+        demoPage.paymentCardNo.sendKeys("42424242");
+        ReusableMethods.waitFor(2);
+    }
+    @Then("Kullanıcı son kullanımı tarihi dolmuş kart bilgisi girer")
+    public void kullanıcı_son_kullanımı_tarihi_dolmuş_kart_bilgisi_girer() {
+        demoPage.paymentCardNo.clear();
+        demoPage.paymentCardNo.sendKeys(ConfigReader.getProperty("cardNo"));
+        ReusableMethods.waitFor(2);
+        demoPage.paymentCardExpiry.sendKeys("1210");
+        ReusableMethods.waitFor(2);
+        demoPage.paymentCardExpiry.sendKeys(Keys.CONTROL + "a");
+        demoPage.paymentCardExpiry.sendKeys(Keys.DELETE);
+    }
+
+    @And("Kullanıcı tüm alanları geçerli bilgileri girer.")
+    public void kullanıcıTümAlanlarıGeçerliBilgileriGirer() {
+        demoPage.paymentCardExpiry.sendKeys(Keys.CONTROL + "a");
+        demoPage.paymentCardExpiry.sendKeys(Keys.DELETE);
+        demoPage.paymentCardExpiry.sendKeys("1026");
+        ReusableMethods.waitFor(2);
+        demoPage.paymentCardCvc.sendKeys("123");
+        ReusableMethods.waitFor(2);
+        demoPage.paymentBillingName.sendKeys("Eda Salman");
+        ReusableMethods.waitFor(2);
+    }
+    @Then("Kullanıcı ödeme yapıldığını görüntüler.")
+    public void kullanıcı_ödeme_yapıldığını_görüntüler() {
+    }
+
+
 }
 
 

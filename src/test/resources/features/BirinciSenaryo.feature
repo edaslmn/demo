@@ -30,9 +30,9 @@ Feature:
     And Kullanıcı Reserve A Meeting düğmesine tıklar.
     And Kullanıcı Checkout düğmesine basar.
     And Kullanıcı ödeme yöntemini seçer.
-    And Kullanıcı Start Payment düğmesine basar.
+    And Kullanıcı Start Payment butonuna tıklar.
     And Kullanıcı gerekli bilgileri girer.
-    And Kullanıcı ödeme yapar
+    And Kullanıcı Payment butonuna tıklar
     Then Randevu talebi başarıyla oluşturulmuş olmalıdır.
     Then My Panel metni görünür olmalıdır.
     When Kullanıcı My Panel düğmesine tıklar.

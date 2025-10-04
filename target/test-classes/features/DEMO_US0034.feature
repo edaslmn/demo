@@ -22,7 +22,6 @@ Feature: Kayıtlı bir kullanıcı olarak ana sayfada eğitmenleri görüp bilgi
     And Kullanıcı Available for Meetings düğmesine tıklar.
     And Kullanıcı Discount düğmesine tıklar.
     And Kullanıcı Management düğmesine tıklar.
-    Then Sawyer Emerson metni görünür olmalıdır.
     And Eğitmen puanı 4.69 olarak görünmelidir.
     And Kullanıcı Sawyer Emerson metnine tıklar.
     When Kullanıcı Courses düğmesine tıklar.

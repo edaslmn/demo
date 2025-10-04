@@ -86,7 +86,68 @@ public class DemoPage {
 
     @FindBy (xpath = "//*[@id=\"PickTimeBody\"]/div[5]/textarea")
     public WebElement reserveDescriptionTextBox;
+
+    //------------------------------------------------------------------------------------
+
+    @FindBy (xpath = "//*[@id=\"navbarContent\"]/ul/li[3]/a")
+    public WebElement courses;
+
+    @FindBy (xpath = "//*[@id=\"topFilters\"]/div/div[2]/div[1]/label")
+    public WebElement upcoming;
+
+    @FindBy (xpath = "//*[@id=\"topFilters\"]/div/div[2]/div[3]/label")
+    public WebElement discount;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/section/div/div/div/div/div/form/div/input")
+    public WebElement courseSearch;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/section/div/div/div/div/div/form/div/button")
+    public WebElement courseSearchButton;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/div[3]/section/div/div[1]/div/figure/figcaption/a/h3")
+    public WebElement sdetCourseLink;
+
+    @FindBy (xpath = "//*[@id=\"app\"]/section[2]/div/div[2]/div[1]/div[2]/form/div[2]/button[2]")
+    public WebElement buyNowButton;
+
+
 /*
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
+    @FindBy (xpath = "")
+    public WebElement;
+
     @FindBy (xpath = "")
     public WebElement;
 
